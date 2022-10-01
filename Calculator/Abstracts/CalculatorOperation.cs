@@ -1,6 +1,6 @@
 ﻿namespace Calculator.Interfaces
 {
-    internal abstract class ICalculatorOperation
+    internal abstract class CalculatorOperation
     {
         public abstract string ShowDetails();
         public abstract double Calculate();
