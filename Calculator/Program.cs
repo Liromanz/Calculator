@@ -7,7 +7,7 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            var types = GetAllClassesByType(typeof(ICalculatorOperation));
+            var types = GetAllClassesByType(typeof(CalculatorOperation));
             byte selectedOperation;
             do
             {

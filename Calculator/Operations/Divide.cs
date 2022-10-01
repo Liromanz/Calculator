@@ -2,7 +2,7 @@
 
 namespace Calculator.Operations
 {
-    internal class Divide : ICalculatorOperation
+    internal class Divide : CalculatorOperation
     {
         public override string ShowDetails()
         {

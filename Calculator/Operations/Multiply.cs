@@ -2,7 +2,7 @@
 
 namespace Calculator.Operations
 {
-    internal class Multiply : ICalculatorOperation
+    internal class Multiply : CalculatorOperation
     {
         public override string ShowDetails()
         {
